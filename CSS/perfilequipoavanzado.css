@@ -1,0 +1,92 @@
+.titulojugadoresconfotos
+{
+   width:95%;
+   height: 4%;
+   margin-left: 2%;
+   margin-right: 2%;
+   background-color: whitesmoke;
+   border-top: 2px solid #063971;
+   border-left: 2px solid #063971;
+   border-right: 2px solid #063971;
+   border-radius: 5px;
+}
+.titulojugadoresconfotos h1
+{
+    	font-family:  Open Sans;
+        color:#3b83bd;
+	font-size: 24px;
+        line-height:22px;
+        margin-top: 4px;   
+}
+
+.jugadoresconfotos
+{
+   margin-left: 2%;
+   margin-right: 2%;
+   display: inline-block;
+   width:95%;
+   background-color: #3b83bd;
+   padding-bottom: 2%;    
+   border: 2px solid #063971; border-radius: 5px;
+}
+
+.imagenequipo-perfilequipo
+{
+    width:30%;
+    height:25%;
+    display:inline-block;
+    margin-bottom: 5%;
+    margin-left:2%;
+    margin-right: 8%;
+}
+.nombreequipo-perfilequipo
+{
+    display:inline-block;
+    width:53%;
+    height:25%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+ 
+}
+
+.imagenequipo-perfilequipojugadoresprimeraposicion
+{
+    width:20%;
+    height:20%;
+    margin-left:2%;
+    display:inline-block;
+    margin-top: 5%;
+}
+
+.imagenequipo-perfilequipojugadores
+{
+    width:20%;
+    height:20%;
+    margin-left:13%;
+    display:inline-block;
+    margin-top: 5%;
+    
+}
+.imagenequipo-perfilequipojugadores img
+{
+    background-color: white;
+}
+
+.imagenequipo-perfilequipojugadoresprimeraposicion img
+{
+    background-color: white;
+}
+.imagenequipo-perfilequipojugadores a img:hover {
+
+   transform: translateY(-5px);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.imagenequipo-perfilequipojugadoresprimeraposicion a img:hover 
+{
+    transform: translateY(-5px);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+
+/*Clase de boton juegaahora*/
+.juegaahora {
+    float:right;
+    border-radius: 12px;
+    background-color: deepskyblue; 
+    border: none;
+    color: white;
+    padding: 5px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.juegaahora:hover {
+    float:right;
+    border-radius: 12px;
+    background-color: #140d4d; 
+    border: none;
+    color: white;
+    padding: 5px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+form label {
+	text-align:left;
+	width:100%;
+	color:#2e6da4;
+        font-family:Open Sans;
+	font-size: 22px;
+}
+
+.peticionesamistad{
+    float:left;
+    width:100%;
+    display:inline;
+}
+.peticion{
+	text-align:left;
+	width:10%;
+        float:left;
+	color:deepskyblue;
+        font-family: Verdana;
+	font-size: 20px;
+}
+
+p label{
+font-family:  Verdana;
+font-size: 15px;
+}
+
+form input {
+  font-family:  Verdana;
+  font-size: 14px;
+ 
+}
+
+form input:focus {
+	background-color:white;
+}
+/* Para los iconos dentro de un p*/
+p span{
+	color:#2271b3;
+	margin-left: 2%;
+	font-size:12px;
+}

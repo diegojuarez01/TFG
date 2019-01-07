@@ -1,0 +1,332 @@
+@charset "utf-8";	
+html {
+  height: 100%;
+}
+body { 
+ background-image: url(../Imagenes/Pagina/fresh_snow.png);
+ width:100%;
+ height: 100%;
+ 
+} 
+
+textarea{
+resize:none;
+}
+/* Enlaces en focus*/ 
+a:hover,  a:focus {
+    outline: 0;
+    color:  #3b83bd;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+}
+
+nav li:first-child a {
+    border-left: 0;
+    border-radius: 4px 0 0 4px;            
+}
+
+nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 4px 4px 0;            
+}
+/*Contenido*/
+#seccion{
+   min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -250px;
+}
+
+#textocontacto{
+margin-left:150px;
+}
+
+textarea{
+	margin-top:10px;
+}
+
+input[type="file"]{
+    border: 1px solid #3b83bd;
+    
+}
+
+input[type="file"]::-webkit-file-upload-button{
+        background:#f9f9f9; 
+        color:#777;
+        /*Aparecera una mano en nuestro cursor al pasar el raton por el boton*/
+        cursor:pointer;
+	border: 1px solid #3b83bd;
+	overflow: hidden;
+        border-radius: 5px 5px 5px 5px;
+}
+
+input[type="file"]:hover{
+    color: white;
+    background: linear-gradient(#3b83bd,#3b83bd); 
+}
+
+input[type="file"]:hover::-webkit-file-upload-button{
+        background: #3b83bd;
+        color:white;
+        /*Aparecera una mano en nuestro cursor al pasar el raton por el boton*/
+        cursor:pointer;
+	border: 1px solid #063971;
+	overflow: hidden;
+}
+
+#Gestiones{
+	background-color: white;
+	overflow-x: hidden;
+	width: auto;
+	height: auto;
+	margin: 0px auto;
+	border: 2px solid black;
+	padding: 5px;
+	margin-bottom:20px;
+	/*Le quitamos los bordes de las esquinas para darle forma redonda*/
+    	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+}
+
+textarea[disabled]{
+background-color:#FAC754;
+}
+
+li a span{
+    margin-right:5px;
+}
+tr td{
+    cursor: pointer;
+}
+
+#submit {
+    border-radius: 12px;
+    background-color: #3b83bd; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#submit {
+    background-color: white; 
+    color: black; 
+    margin-left: 3%;
+    border: 2px solid #3b83bd;
+}
+
+#submit:hover
+{
+    background-color: #3b83bd;
+    color: white;
+}
+
+.btn-default-perfil{
+    border-radius: 12px;
+    background-color: #3b83bd; 
+    border: none;
+    color: white;
+    width:90%;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn-default-perfil {
+    background-color: white; 
+    color: black; 
+    margin-left:5%;
+    border: 2px solid #3b83bd;
+}
+.btn-default-perfil:hover
+{
+    background-color: #3b83bd;
+    color: white;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+#doblebotonequipo1{
+float: left;
+display: inline-block;
+width:40%;
+}
+#doblebotonequipo2{
+float: left;
+display: inline-block;
+width:40%;
+}
+textarea{
+background-color:#FAC754;
+}
+
+/* Circulos*/
+ 
+span.circulo_red {
+  background: red;
+   border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: red;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+  cursor: default; 
+}
+span.circulo_green {
+  background: #5cb85c;
+   border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #5cb85c;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+   cursor: default; 
+}
+
+/*Bordes imagenes*/
+
+img{
+    border: 2px solid #3b83bd;
+    padding: 1px;
+    border-image: url(border.png) 50 round;
+    margin-bottom: 15px;
+}
+.contador2{ 
+    color:red;
+}
+::-webkit-input-placeholder { color: #B3B3B3; line-height: normal  } /* WebKit */
+:-moz-placeholder { color: #B3B3B3; line-height: normal } /* Firefox 18- */
+::-moz-placeholder { color: #B3B3B3; line-height: normal } /* Firefox 19+ */
+:-ms-input-placeholder { color: #B3B3B3; line-height: normal } /* IE 10+ */
+
+/* SLIDE PRINCIPAL */
+
+* {box-sizing:border-box}
+
+/* CONTENEDOR */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* ESCONDE IMAGENES POR DEFECTO */
+.mySlides {
+    display: block;
+}
+
+/* BOTONES SIGUIENTE ANTERIOR */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* SIGUIENTE */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* TEXTO INFO */
+.text {
+  color: #f2f2f2;
+  font-size: 35px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* NUMEROS ARRIBA IZQ */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* INDICADORES (circulos de posicion) */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.chat_soporte
+{
+    width:100%;
+    height: 25%; 
+    border: 2px solid #063971; border-radius: 5px;
+    margin-bottom: 2%;
+}
+.chat_soporte textArea
+{
+   cursor: auto; 
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* ANIMACIONES */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
